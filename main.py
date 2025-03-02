@@ -1,3 +1,8 @@
+# Don't Remove Credit Tg - https://t.me/Prime_Botz
+# Subscribe Telegram Channel For Amazing Bot https://t.me/Prime_Botz
+# Support Group Tg ➠ https://t.me/Prime_Botz_Support
+# Ask Doubt on HTTPS://T.ME/MR_PRIME_SUPREME
+
 from configs import Config  
 from pyrogram import Client, filters, idle  
 from pyrogram.enums import ParseMode  
@@ -61,6 +66,12 @@ async def start_handler(bot, message: Message):
         ]),
         parse_mode=ParseMode.HTML    
     )  
+
+
+# Don't Remove Credit Tg - https://t.me/Prime_Botz
+# Subscribe Telegram Channel For Amazing Bot https://t.me/Prime_Botz
+# Support Group Tg ➠ https://t.me/Prime_Botz_Support
+# Ask Doubt on HTTPS://T.ME/MR_PRIME_SUPREME
 
 # Help Command
 @Bot.on_message(filters.private & filters.command("help"))
@@ -181,3 +192,9 @@ User.start()
 idle()  
 Bot.stop()  
 User.stop()
+
+
+# Don't Remove Credit Tg - https://t.me/Prime_Botz
+# Subscribe Telegram Channel For Amazing Bot https://t.me/Prime_Botz
+# Support Group Tg ➠ https://t.me/Prime_Botz_Support
+# Ask Doubt on HTTPS://T.ME/MR_PRIME_SUPREME
