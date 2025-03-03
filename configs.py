@@ -1,3 +1,7 @@
+# Don't Remove Credit Tg - https://t.me/Prime_Botz
+# Subscribe Telegram Channel For Amazing Bot https://t.me/Prime_Botz
+# Support Group Tg ➠ https://t.me/Prime_Botz_Support
+# Ask Doubt on HTTPS://T.ME/MR_PRIME_SUPREME
 
 import os
 import re
@@ -9,11 +13,11 @@ class Config(object):
     API_ID = int(os.environ.get("API_ID", 12345))
     API_HASH = os.environ.get("API_HASH", "")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "MdiskSearchBot")
+    BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "Link-Search-Prime-Botz")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
-    BOT_OWNER = int(os.environ.get("BOT_OWNER", "6761157656"))
+    BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
     DATABASE_URL = os.environ.get("DATABASE_URL")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", False)
     AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002245813234').split()] 
@@ -55,6 +59,11 @@ class Config(object):
 <blockquote> 🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ  <a href='https://t.me/Prime_Botz'>ᴘʀɪᴍᴇ ʙᴏᴛz</a></blockquote>
 """
 
+# Don't Remove Credit Tg - https://t.me/Prime_Botz
+# Subscribe Telegram Channel For Amazing Bot https://t.me/Prime_Botz
+# Support Group Tg ➠ https://t.me/Prime_Botz_Support
+# Ask Doubt on HTTPS://T.ME/MR_PRIME_SUPREME
+    
 
     START_MSG = """
 <b>👋 ʜᴇʟʟᴏ ʙᴜᴅᴅʏ! {}🥰,
@@ -69,3 +78,7 @@ class Config(object):
 <blockquote> 🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ  <a href='https://t.me/Prime_Botz'>ᴘʀɪᴍᴇ ʙᴏᴛz</a></blockquote>
 """
 
+# Don't Remove Credit Tg - https://t.me/Prime_Botz
+# Subscribe Telegram Channel For Amazing Bot https://t.me/Prime_Botz
+# Support Group Tg ➠ https://t.me/Prime_Botz_Support
+# Ask Doubt on HTTPS://T.ME/MR_PRIME_SUPREME
