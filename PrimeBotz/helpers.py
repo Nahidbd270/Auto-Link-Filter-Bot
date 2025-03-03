@@ -1,5 +1,4 @@
-# in & as LazyDeveloper
-# Please Don't Remove Credit
+
 
 from base64 import standard_b64encode, standard_b64decode
 
