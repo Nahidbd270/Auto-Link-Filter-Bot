@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://envs.sh/i1Y.jpg" alt="Lazy Url Hunterr BOT  logo">
+  <img src="https://envs.sh/i1Y.jpg" alt="Link-Search-Prime-Botz logo">
 </p>
 <h1 align="center">
-  <b> PrimeUrlHunterBOT </b>
+  <b> Link-Search-Prime-Botz </b>
 </h1>
 
 ## ⚡️Features
@@ -26,11 +26,10 @@
 * `BOT_OWNER`: Bot Admin ID. Get it from @MissRoseBOT
 * `BOT_TOKEN`: Get this from @BotFather
 * `BOT_USERNAME`: Your Bot Username which you sent to @BotFather (Without [@])
-* `CHANNEL_ID`: Channel ID for Searching Messages.( same as Database Channel of LazyPrincessBOT ).
+* `CHANNEL_ID`: Channel ID for Searching Messages.( same as Database Channel of @iPapkornprimebot ).
 * `DATABASE_URL` : MongoDB Database URI for Saving UserID for hunting or Broadcasting..
 * `UPDATES_CHANNEL`: ID of a Channel which you want to do Force Sub to use the bot.
-* `USER_SESSION_STRING`: Get this from @SessionStringGeneratorZBot
-* Check [app.json](https://github.com/LazyDeveloperr/LazyUrlHunterrBOT/blob/main/app.json) for more
+* `USER_SESSION_STRING`: Get this from @StringSession_Generator_PrimeBot
 
 
 ## Deploy
@@ -41,7 +40,7 @@ You can deploy this bot anywhere.
  <p>
    <pre>gunicorn app:app & python3 main.py</pre>
  <br>
- <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/LazyDeveloperr/LazyUrlHunterrBOT&branch=main&name=lazyhunterbot"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
+ <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/PrimeBotz/Link-Search-Prime-Botz&branch=PrimeBotz&name=Link-Search-Prime-Botz"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
  </p>
 </details>
 
@@ -56,7 +55,7 @@ You can deploy this bot anywhere.
 
 <p>
 <pre>
-git clone https://github.com/LazyDeveloperr/LazyUrlHunterrBOT
+git clone https://github.com/PrimeBotz/Link-Search-Prime-Botz
 # Install Packages
 pip3 install -r requirements.txt
 Edit configs.py with variables as given below then run bot
@@ -65,26 +64,22 @@ python3 main.py
 </p>
 
 ## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/LazyPrincessSupport)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/LazyDeveloper)
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/Prime_Botz_Support)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/Prime_Botz)
 
 ## Credits 
-* [![LazyUrlHunterr-Devs](https://img.shields.io/static/v1?label=LazyUrlHunterBOT&message=devs&color=critical)](https://telegram.dog/LazyDeveloper)
+* [![Link-Search-Prime-Botz](https://img.shields.io/static/v1?label=Link-Search-Prime-Botz&message=devs&color=critical)](https://telegram.dog/Prime_Botz)
+
+* source code the one and only LazyDeveloper 😉
 
 
 ## Thanks to 
- - ❤️ Thank You [LazyDeveloper](https://telegram.me/LazyDeveloper) For helping me in my Journey..❤️
- - ⚡️[Why don't you buy a cup of coffee for LazyDeveloper](https://telegram.me/LazyDeveloper)⚡️
+ - ❤️ Thank You [MR.PRIME](https://telegram.dog/Prime_Botz) For helping me in my Journey..❤️
+ - ⚡️[Why don't you buy a cup of coffee for MR.PRIME](https://telegram.me/Prime_Botz)⚡️
 
 ### Note
 
-[Join Developer Channel](https://telegram.dog/LazyDeveloper): LazyDeveloper
-
-## Disclaimer
-[![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/LazyDeveloperr/LazyUrlHunterrBOT/blob/main/LICENSE)
-Selling The Codes To Other People For Money Is *Strictly Prohibited*.
-🔺 [Contact Us](https://telegram.me/mRiderDM) if you find someone selling this source code 🔺
+[Join Developer Channel](https://telegram.dog/Prime_Botz): Prime Botz
 
 
 
