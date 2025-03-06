@@ -22,7 +22,7 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", False)
     AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002309821556').split()] 
     BROADCAST_AS_COPY = True  
-    ABOUT_BOT_TEXT = """<b><blockquote>⍟───[  <a href='https://t.me/Prime_Botz'>📌 ᴍʏ ᴅᴇᴛᴀɪʟꜱ ʙʏ ᴘʀɪᴍᴇ ʙᴏᴛᴢ 🤖</a ]───⍟</blockquote>
+    ABOUT_BOT_TEXT = """<b><blockquote>⍟───[  <a href='https://t.me/ctgmovies23'>📌 ᴍʏ ᴅᴇᴛᴀɪʟꜱ ʙʏ Admin ʙᴏᴛᴢ 🤖</a ]───⍟</blockquote>
     
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/Auto_Link_Search_Bot'>🔍 Auto Link Search Bot 🚀</a>
 ‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
