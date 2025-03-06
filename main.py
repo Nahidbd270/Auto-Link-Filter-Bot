@@ -56,13 +56,13 @@ async def start_handler(bot, message: Message):
         "https://envs.sh/i1Y.jpg",
         caption=Config.START_MSG.format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("☆ Add Me to Group ☆", url="https://t.me/Prime_Link_Search_FastBot?startgroup=true")],
-            [InlineKeyboardButton("✪ Support Group ✪", url="https://t.me/Prime_Botz_Support"),
-             InlineKeyboardButton("🎬 Movies Channel 🎬", url="https://t.me/Prime_Movies4U")],
-            [InlineKeyboardButton("〄 Updates Channel 〄", url="https://t.me/Prime_Botz")],
+            [InlineKeyboardButton("☆ Add Me to Group ☆", url="https://t.me/Auto_Link_Search_Bot?startgroup=true")],
+            [InlineKeyboardButton("✪ Support Group ✪", url="https://t.me/Movie_Request_Group_23"),
+             InlineKeyboardButton("🎬 Movies Channel 🎬", url="https://t.me/TeraboxMovies_world")],
+            [InlineKeyboardButton("〄 Updates Channel 〄", url="https://t.me/+3S41nEK-z3YxYjI1")],
             [InlineKeyboardButton("〆 About 〆", callback_data="About_msg"),
              InlineKeyboardButton("〆 Help 〆", callback_data="Help_msg")],
-            [InlineKeyboardButton("✧ Creator ✧", url="https://t.me/Prime_Nayem")]
+            [InlineKeyboardButton("✧ Creator ✧", url="https://t.me/ctgmovies23")]
         ]),
         parse_mode=ParseMode.HTML    
     )  
@@ -82,8 +82,8 @@ async def help_handler(bot, message: Message):
     await message.reply_text(
         Config.ABOUT_HELP_TEXT.format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("〄 Updates Channel 〄", url="https://t.me/Prime_Botz"),
-             InlineKeyboardButton("✪ Support Group ✪", url="https://t.me/Prime_Botz_support")],
+            [InlineKeyboardButton("〄 Updates Channel 〄", url="https://t.me/+3S41nEK-z3YxYjI1"),
+             InlineKeyboardButton("✪ Support Group ✪", url="https://t.me/Movie_Request_Group_23")],
             [InlineKeyboardButton("〆 About 〆", callback_data="About_msg")]
         ]),
         parse_mode=ParseMode.HTML
@@ -126,7 +126,7 @@ async def inline_handlers(bot, message: Message):
         google_search_url = f"https://www.google.com/search?q={urllib.parse.quote(message.text)}"  
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("🔍 ᴄʜᴇᴄᴋ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ 🔍", url=google_search_url)],
-            [InlineKeyboardButton("📩 ʀᴇǫᴜᴇꜱᴛ ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ᴛʜᴇ ᴀᴅᴍɪɴ 📩", url="https://t.me/Prime_Admin_Support_ProBot")]
+            [InlineKeyboardButton("📩 ʀᴇǫᴜᴇꜱᴛ ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ᴛʜᴇ ᴀᴅᴍɪɴ 📩", url="https://t.me/CtgmoviesAdminbot")]
         ])  
         msg = await message.reply_photo(
             photo="https://envs.sh/bYa.jpg",
@@ -151,8 +151,8 @@ async def button(bot, cmd: CallbackQuery):
             text=Config.ABOUT_BOT_TEXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("〄 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 〄", url="https://t.me/Prime_Botz")],
-                [InlineKeyboardButton("✧ ᴀᴅᴍɪɴ ꜱᴜᴘᴘᴏʀᴛ ✧", url="https://t.me/Prime_Nayem"),
+                [InlineKeyboardButton("〄 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 〄", url="https://t.me/+3S41nEK-z3YxYjI1")],
+                [InlineKeyboardButton("✧ ᴀᴅᴍɪɴ ꜱᴜᴘᴘᴏʀᴛ ✧", url="https://t.me/Movie_Request_Group_23"),
                  InlineKeyboardButton("🏠 ʜᴏᴍᴇ 🏠", callback_data="gohome")]
             ]),
             parse_mode=ParseMode.HTML
@@ -163,8 +163,8 @@ async def button(bot, cmd: CallbackQuery):
             text=Config.ABOUT_HELP_TEXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("✪ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ✪", url="https://t.me/Prime_Botz_support"),
-                 InlineKeyboardButton("〄 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 〄", url="https://t.me/Prime_Botz")],
+                [InlineKeyboardButton("✪ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ✪", url="https://t.me/Movie_Request_Group_23"),
+                 InlineKeyboardButton("〄 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 〄", url="https://t.me/+3S41nEK-z3YxYjI1")],
                 [InlineKeyboardButton("🏠 ʜᴏᴍᴇ 🏠", callback_data="gohome")]
             ]),
             parse_mode=ParseMode.HTML
@@ -175,13 +175,13 @@ async def button(bot, cmd: CallbackQuery):
             text=Config.START_MSG.format(cmd.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆", url="https://t.me/Prime_Link_Search_FastBot?startgroup=true")],
-                [InlineKeyboardButton("✪ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ✪", url="https://t.me/Prime_Botz_Support"),
-                 InlineKeyboardButton("🎬 ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟ 🎬", url="https://t.me/Prime_Movies4U")],
-                [InlineKeyboardButton("〄 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 〄", url="https://t.me/Prime_Botz")],
+                [InlineKeyboardButton("☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆", url="https://t.me/Auto_Link_Search_Bot?startgroup=true")],
+                [InlineKeyboardButton("✪ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ✪", url="https://t.me/Movie_Request_Group_23"),
+                 InlineKeyboardButton("🎬 ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟ 🎬", url="https://t.me/TeraboxMovies_world")],
+                [InlineKeyboardButton("〄 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 〄", url="https://t.me/+3S41nEK-z3YxYjI1")],
                 [InlineKeyboardButton("〆 ʜᴇʟᴘ 〆", callback_data="Help_msg"),
                  InlineKeyboardButton("〆 ᴀʙᴏᴜᴛ 〆", callback_data="About_msg")],
-                [InlineKeyboardButton("✧ ᴄʀᴇᴀᴛᴏʀ ✧", url="https://t.me/Prime_Nayem")]
+                [InlineKeyboardButton("✧ ᴄʀᴇᴀᴛᴏʀ ✧", url="https://t.me/ctgmovies23")]
             ]),
             parse_mode=ParseMode.HTML
         )
