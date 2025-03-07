@@ -37,7 +37,7 @@ async def force_sub(bot, message):
     btn = await is_subscribed(bot, message.from_user.id)
     if btn:
         await message.reply_photo(
-            photo="https://envs.sh/wK8.jpg",  # Change this if needed
+            photo="https://i.ibb.co/xt7fzdK3/photo-2025-03-07-15-29-59-7479090267811741696.jpg",  # Change this if needed
             caption="👋 Hello Buddy 👋,\n\n"
                     "You must join our updates channel before using the bot. "
                     "Click the 'Join Updates Channel' button below and then press 'Try Again'.",
