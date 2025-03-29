@@ -12,7 +12,7 @@ id_pattern = re.compile(r'^.\d+$')
 class Config(object):
     API_ID = int(os.environ.get("API_ID", 19234664))
     API_HASH = os.environ.get("API_HASH", "29c2f3b3d115cf1b0231d816deb271f5")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8070686038:AAGaXuAB1MZYGXuLUtZ5EeTh76nlA3DRoQc")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8154470958:AAEhy4vdX8IJhcvZHgHCkzH0DfKOr6xz5kM")
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "Link-Search-Prime-Botz")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING","BQElf2gAD9zND7AeArRQ2MxFK7o8FXE_KBSvFgP0FjfPh4RTPLmlhOEHojR2V0BlX2T0P-DUx88wLgsHPgWKEs-p2qnMc7CAunTYLsE2d0qjtMNnWKRNToxO3pS381nf6IGsn81x6sNr3sOHZp53QwZLs-IwXSzk-y5efYkbtMbFQ-lUc8PSOGtLMw9kGa9W0YpM2Z_GtOPRCq_dCLwWkdCO7YNu173vxxclIdCBQ8riEQuCNKfqNhCP1NcZ9hDu3Fzr3q5-pqvQs1kZ_2AQu3apKt2EKqj8PcLL_lizP8haqozv64JzeMrXEfqPt0hwl1vhKnKqDg8X0hFULOFKRbgfhMuYegAAAAHgT530AA")
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -1002312573856))
