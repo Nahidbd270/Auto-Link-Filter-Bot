@@ -53,7 +53,7 @@ async def start_handler(bot, message: Message):
         return
 
     await message.reply_photo(
-        "https://envs.sh/i1Y.jpg",
+        "https://i.ibb.co/fYmcFQvQ/photo-2025-04-03-10-45-24-7489036226658304024.jpg",
         caption=Config.START_MSG.format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("☆ Add Me to Group ☆", url="https://t.me/Auto_Link_Search_Bot?startgroup=true")],
@@ -126,10 +126,10 @@ async def inline_handlers(bot, message: Message):
         google_search_url = f"https://www.google.com/search?q={urllib.parse.quote(message.text)}"  
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("🔍 ᴄʜᴇᴄᴋ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ 🔍", url=google_search_url)],
-            [InlineKeyboardButton("📩 ʀᴇǫᴜᴇꜱᴛ ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ᴛʜᴇ ᴀᴅᴍɪɴ 📩", url="https://t.me/CtgmoviesAdminbot")]
+            [InlineKeyboardButton("📩 ʀᴇǫᴜᴇꜱᴛ ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ᴛʜᴇ ᴀᴅᴍɪɴ 📩", url="https://t.me/+2jX_TgG9neZlYTM1")]
         ])  
         msg = await message.reply_photo(
-            photo="https://envs.sh/bYa.jpg",
+            photo="https://i.ibb.co/SgwHKxP/photo-2025-04-03-10-42-42-7489035792866607124.jpg",
             caption=f"**❌ ɴᴏ ʀᴇꜱᴜʟᴛꜱ ꜰᴏᴜɴᴅ ꜰᴏʀ ➠ {message.text}\n\n⚡ ᴛʀʏ ꜱᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ꜱᴘᴇʟʟɪɴɢ ᴏʀ ᴀᴅᴅ ᴛʜᴇ ʀᴇʟᴇᴀꜱᴇ ʏᴇᴀʀ ꜰᴏʀ ʙᴇᴛᴛᴇʀ ʀᴇꜱᴜʟᴛꜱ .🔍 ᴀɴᴅ ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ. 👇\n\n📩 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴀᴋᴇ ᴀ ʀᴇǫᴜᴇꜱᴛ ᴛᴏ ᴛʜᴇ ᴅɪʀᴇᴄᴛ ᴀᴅᴍɪɴ, ʏᴏᴜ ᴄᴀɴ ᴅᴏ ᴛʜᴀᴛ ꜰʀᴏᴍ ʙᴇʟᴏᴡ 👇 ʙᴜᴛᴛᴏɴ.**",
             reply_markup=keyboard,
             reply_to_message_id=message.id
